@@ -1,0 +1,20 @@
+*{
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: lightgray;
+  color: white;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.container > * {
+  margin: auto;
+}
